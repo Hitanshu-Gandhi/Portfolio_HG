@@ -373,7 +373,7 @@ nav .yo{
     .hit {
         position: relative;
         width: 0;
-        height: 0;
+        height: 20vh;
         background-color: white;
     }
 
