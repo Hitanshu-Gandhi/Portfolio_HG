@@ -15,7 +15,15 @@
     <div id="home">
 
         <div class="hit">
-            <nav>
+
+            <nav class="mobile navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                 <span>My Portfolio</span>
+                </a>
+              </nav>
+
+            <nav class="pc">
                 <img src="logo.png" alt="...">
                 <ul>
                     <li><a href="#home">HOME</a> </li>
@@ -91,7 +99,7 @@
                     <div class="layer">
                         <h3>Jaykem Enterprises Website</h3>
                         <p>Mobile View of Product page</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://hitanshu-gandhi.github.io/Jaykem_Enterprises/home.html"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -99,15 +107,15 @@
                     <div class="layer">
                         <h3>Jaykem Enterprises Website</h3>
                         <p>Mobile View of About page</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://hitanshu-gandhi.github.io/Jaykem_Enterprises/home.html"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="pc1.png">
                     <div class="layer">
                         <h3>Jaykem Enterprises Website</h3>
-                        <p>This is a website which gives info about chemical products.</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <p>Pc view</p>
+                        <a href="https://hitanshu-gandhi.github.io/Jaykem_Enterprises/home.html"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <!-- <div class="work">
@@ -145,12 +153,6 @@
                                     required></input>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label"><strong>Phone
-                                        Number</strong></label>
-                                <input type="number" class="form-control" id="number" placeholder="Enter Number"
-                                    required></input>
-                            </div>
-                            <div class="mb-3">
                                 <label for="exampleFormControlInput2" class="form-label"><strong>Email
                                         address</strong></label>
                                 <input type="email" class="form-control" id="email" placeholder="name@example.com"
@@ -163,7 +165,7 @@
                                     rows="3"></textarea>
                             </div>
                             <div class="butt">
-                                <input class="btn btn-danger" type="submit" value="Submit" id="submit"></input>
+                                <input class="btn btn-success" type="submit" value="Submit" id="submit"></input>
                             </div>
                         </form>
                     </div>
@@ -215,7 +217,6 @@
                 Subject: "New Enquery",
                 Body: "Name: " + document.getElementById("name").value
                     + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Number: " + document.getElementById("number").value
                     + "<br> Requierment: " + document.getElementById("requirement").value,
             }).then(
                 message => alert("Successfully Sent")
