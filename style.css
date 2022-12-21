@@ -303,6 +303,7 @@ nav .yo{
 @media(max-width: 475px) {
     .about-col-1 img{
         width: 85vw;
+        height: 70vh;
     }
 
     .form{
