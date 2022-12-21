@@ -295,6 +295,10 @@ nav .yo{
     display: none;
 }
 
+.mobile{
+    display: none;
+}
+
 /* media query */
 @media(max-width: 475px) {
     .about-col-1 img{
@@ -304,5 +308,83 @@ nav .yo{
     .form{
         width: 80vw;
         margin-top: 3rem;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .home {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    
+    .home h1 {
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+        color: rgb(1, 15, 49);
+    }
+    
+    .home h1 span {
+        color: #bc0112;
+        font-size: 4rem;
+    }
+    
+    .home p {
+        color: rgb(102, 102, 102);
+        font-weight: bold;
+        line-height: 2rem;
+    }
+
+    .photo {
+        bottom: 122px;
+        right: 36rem;
+    }
+
+    .me {
+        z-index: -1;
+        margin-left: 30em;
+        width: 18.5rem;
+    }
+
+    .back {
+        z-index: -1;
+        height: 2em;
+        width: 48em;
+    }
+
+    .photo img {
+        height: 100%;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+    }
+
+    .me:hover {
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+        height: 3em;
+        width: 100%;
+    }
+
+    .hit {
+        position: relative;
+        width: 0;
+        height: 0;
+        background-color: white;
+    }
+
+    .hit img {
+        height: 2em;
+        width: 2em;
+        margin: -0.2em 0.5em 0.5em 0.5em;
+    }
+
+    .mobile span{
+        font-size: 1.4rem;
+        color: #34052fea;
     }
 }
